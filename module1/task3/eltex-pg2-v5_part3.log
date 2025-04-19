@@ -1,0 +1,18 @@
+touch "${USER}_part3.log"
+mkdir -p D1/D2/D3
+cd D1/D2 touch file.txt
+echo "\Hello world"\ > file.txt
+cd D3
+ln -s /home/eltex-pg2-v5/D1/D2/file.txt /home/eltex-pg2-v5/D1/D2/D3/link_file.txt
+ln /home/eltex-pg2-v5/D1/D2/file.txt /home/eltex-pg2-v5/D1/D2/D3/hardlink_file.txt
+mv file.txt ../
+cd D2/D3
+cat link_file.txt
+cat hardlink_file.txt
+cd D1
+rm -r D2
+find / -type f -size +20M > "${USER}_part3_gt50M.log" 2>/dev/null
+find ~ -type f -mtime -1
+which find
+file /usr/bin/find
+file /boot/initrd.img*
