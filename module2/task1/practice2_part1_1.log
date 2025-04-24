@@ -1,277 +1,0 @@
-Script started on 2025-04-11 13:17:42+07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="38"]
-[?2004heltex-pg2-v5@eltex-15:48> [Keltex-pg2-v5@eltex-15:48> ыы[K[Kssh-copy-if[Kd root@172.16.9.205
-[?2004l/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/eltex-pg2-v5/.ssh/id_rsa.pub"
-The authenticity of host '172.16.9.205 (172.16.9.205)' can't be established.
-ED25519 key fingerprint is SHA256:YNVzj+RtetZfXv5XUn/CUjeEcaMD4eg3jy8EuGGIS+o.
-This key is not known by any other names.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
-/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-root@172.16.9.205's password: 
-
-
-Number of key(s) added: 1
-
-Now try logging into the machine, with:   "ssh 'root@172.16.9.205'"
-and check to make sure that only the key(s) you wanted were added.
-
-[?2004heltex-pg2-v5@eltex-15:48> 
-[?2004l[?2004heltex-pg2-v5@eltex-15:48> ssh root@172.16.9.205
-[?2004lWelcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-57-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/pro
-
- System information as of Fri Apr 11 06:23:27 AM UTC 2025
-
-  System load:  0.06               Processes:              112
-  Usage of /:   40.4% of 14.66GB   Users logged in:        0
-  Memory usage: 7%                 IPv4 address for ens18: 172.16.9.205
-  Swap usage:   0%
-
-
-Expanded Security Maintenance for Applications is not enabled.
-
-30 updates can be applied immediately.
-To see these additional updates run: apt list --upgradable
-
-Enable ESM Apps to receive additional future security updates.
-See https://ubuntu.com/esm or run: sudo pro status
-
-
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# cat ~//ss[K[K[K.ssh/authorized_keys
-[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCiyVkF4HRMi6UtY6kdYbLPG+ZYll0w5EFZhvQKFlw8eKAwfovGwI5Jl6qvTxqTSER4tmK2mS0yiX6caodzO0rufnC8vOaiHIax+8TZ5nwqpS/2XdJ2AN3eywIlzigcScWAdbj5oY2dndaLnLVEbsHh+HsnytyBb9PpLmKykJ6dVU1KN5luZqWaIZIyRO5MNm6H2qAAeHS/32PLI/WGmdCavm+jEpif9835BSru4lNNE+pBegZ6zxawRldrA2z6gJ7zcV7J1ZKYG/BC779jqLanJ+v2P9DM6pTUZ20RywXuvYJ838KEB7iDxSuYWh2xp8NpC4f/Nk+2zvWCC3ar/PEk27YIKF7MtRHGTQJYine0YBMtDL1zIo7yeqDY/D63T1xQzvI/JCE+rQ4JiZkgsDLzObkz2BbGgOskrVZW35x1MG2hk8n3Mv85QhHsX9bRf0mYGwEsSYYIkI0Af1hJMDzeR5QjvHuO4jurRR2trXd2Wlo07qsMiXeN36NnflRbgs8= eltex-pg2-v5@eltex
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# сфе[K[K[Kcat practice2_part1.log
-[?2004lcat: practice2_part1.log: No such file or directory
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# script practica2[K[Ke2_pat[Krt1.log
-[?2004lScript started, output log file is 'practice2_part1.log'.
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# ls -l ~/.ssh/ao[Kuthorized_keys
-[?2004l-rw------- 1 root root 572 Apr 11 06:21 /root/.ssh/authorized_keys
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# [K]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# useradd -m -s /bin/bash user1
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# passwd user1
-[?2004lNew password: 
-Retype new password: 
-passwd: password updated successfully
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# id user1
-[?2004luid=1001(user1) gid=1001(user1) groups=1001(user1)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# фвв[K[K[Kadduser user2
-[?2004linfo: Adding user `user2' ...
-info: Selecting UID/GID from range 1000 to 59999 ...
-info: Adding new group `user2' (1002) ...
-info: Adding new user `user2' (1002) with group `user2 (1002)' ...
-info: Creating home directory `/home/user2' ...
-info: Copying files from `/etc/skel' ...
-New password: 
-Retype new password: 
-passwd: password updated successfully
-Changing the user information for user2
-Enter the new value, or press ENTER for the default
-	Full Name []: 
-	Room Number []: 
-	Work Phone []: 
-	Home Phone []: 
-	Other []: 
-Is the information correct? [Y/n] 
-info: Adding new user `user2' to supplemental / extra groups `users' ...
-info: Adding user `user2' to group `users' ...
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# adduser3
-[?2004lCommand 'adduser3' not found, did you mean:
-  command 'adduser' from deb adduser (3.137ubuntu1)
-Try: apt install <deb name>
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# adduser user3
-[?2004linfo: Adding user `user3' ...
-info: Selecting UID/GID from range 1000 to 59999 ...
-info: Adding new group `user3' (1003) ...
-info: Adding new user `user3' (1003) with group `user3 (1003)' ...
-info: Creating home directory `/home/user3' ...
-info: Copying files from `/etc/skel' ...
-New password: 
-Retype new password: 
-No password has been supplied.
-New password: 
-Retype new password: 
-No password has been supplied.
-New password: 
-Retype new password: 
-No password has been supplied.
-passwd: Authentication token manipulation error
-passwd: password unchanged
-Try again? [y/N] 
-Changing the user information for user3
-Enter the new value, or press ENTER for the default
-	Full Name []: 
-	Room Number []: 
-	Work Phone []: 
-	Home Phone []: 
-	Other []: 
-Is the information correct? [Y/n] 
-info: Adding new user `user3' to supplemental / extra groups `users' ...
-info: Adding user `user3' to group `users' ...
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# id user3
-[?2004luid=1003(user3) gid=1003(user3) groups=1003(user3),100(users)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# id user2
-[?2004luid=1002(user2) gid=1002(user2) groups=1002(user2),100(users)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# гыук[K[K[K[Kusermod -s /usr/sbin/nologin user3
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su user3
-[?2004lThis account is currently not available.
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su -s /bo[Kin/bs[Kash user4[K3
-[?2004l[?2004h]0;user3@eltex-practice2-pg2-v5: /rootuser3@eltex-practice2-pg2-v5:/root$ exiy[Kt
-[?2004lexit
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# gto[K[Kroupadd group1
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# фвв[K[K[Kadduser user1 group1
-[?2004linfo: Adding user `user1' to group `group1' ...
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# adduser user1 group1[C[C[1P group12 group1
-[?2004linfo: Adding user `user2' to group `group1' ...
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# adduser user2 group1[1P group13 group1
-[?2004linfo: Adding user `user3' to group `group1' ...
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# for user in user*; do groups $user; done
-[?2004lgroups: ‘user*’: no such user
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# for user in user*; do groups $user; done[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
-[?2004lgroups: ‘user*’: no such user
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# шв гыук[K[K[K[K[K[K[Kшв[K[Kid user1
-[?2004luid=1001(user1) gid=1001(user1) groups=1001(user1),1004(group1)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# id user*
-[?2004lid: ‘user*’: no such user
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# id user1
-[?2004luid=1001(user1) gid=1001(user1) groups=1001(user1),1004(group1)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# id user2
-[?2004luid=1002(user2) gid=1002(user2) groups=1002(user2),100(users),1004(group1)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# od[K[Kid user3
-[?2004luid=1003(user3) gid=1003(user3) groups=1003(user3),100(users),1004(group1)
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# sudo mkdir /opt/share
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# sudo chown ^[K:group1 /opt/share
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# sudo chmod 2770 /opt/share
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# ls -ld /opt/share
-[?2004ldrwxrws--- 2 root group1 4096 Apr 11 09:04 [0m[01;34m/opt/share[0m
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# sudo nano /home/user1/.bashh[Krd[Kc
-[?2004l[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;40H(B[0;7m[ Reading... ](B[m[33;38H(B[0;7m[ Read 117 lines ](B[m[H(B[0;7m  GNU nano 7.2                         /home/user1/.bashrc                                  [1;91H(B[m[34d(B[0;7m^G(B[m Help[34;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[34;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[35d(B[0;7m^X(B[m Exit[35;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;[10desac[12d[36m# don't put duplicate lines or lines starting with space in the history.[13d# See bash(1) for more options[14d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[16d[36m# append to the history file, don't overwrite it[17d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[19d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[20d[39m(B[mHISTSIZE[32m=[39m(B[m1000[21dHISTFILESIZE[32m=[39m(B[m2000[23d[36m# check the window size after each command and, if necessary,[24d# update the values of LINES and COLUMNS.[25d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[27d[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[28d# match all files and zero or more directories and subdirectories.[29d#shopt -s globstar[31d# make less more friendly for non-text input files, see lesspipe(1)[32d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[A[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[33d[K[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Hxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# uncomment for a colored prompt, if the terminal has the capability; turned[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# off by default to not distract the user: the focus in a terminal window[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# should be on the output of commands, not on the prompt[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m#force_color_prompt=yes[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;8H[36m[1K # a case would tend to support setf rather than setaf.)[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;9Hcolor_prompt[32m=[39m(B[myes[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H[32melse[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;9Hcolor_prompt[32m=[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\][39m(B[0;7m>[32;1H(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32melse[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H*[32m)[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# colored GCC warnings and errors[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# some more ls aliases[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1Halias l[32m=(B[0;1m[33m'ls -CF'[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# Add an (B[0;1m[33m"alert"(B[0m[36m alias for long running commands.  Use like so:[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m#   sleep 10; alert[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1Halias alert[32m=(B[0;1m[33m'notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$[39m(B[0;7m>[32;1H(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# Alias definitions.[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# You may want to put all your additions into a separate file like[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# ~/.bash_aliases, instead of adding them here directly.[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H. ~/.bash_aliases[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# enable programmable completion features (you don't need to enable[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[36m# sources /etc/bash.bashrc).[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mif[39m(B[m [32m![39m(B[m shopt -oq posix[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;3H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /usr/share/bash-completion/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H. /usr/share/bash-completion/bash_completion[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;3H[32melif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /etc/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;5H. /etc/bash_completion[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;3H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;33r8[33d
-[1;35r[32;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;60H(B[0;7m*[91G(B[m[?12l[?25h[32du[?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25h(B[0;1m[34mumask[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h 0[?25l[?12l[?25h0[?25l[?12l[?25h7[?25l[34;16H        (B[0;7mM-D(B[m DOS Format         (B[0;7mM-A(B[m Append             (B[0;7mM-B(B[m Backup File[K[35;2H(B[0;7mC(B[m Cancel[16G        (B[0;7mM-M(B[m Mac Format         (B[0;7mM-P(B[m Prepend            (B[0;7m^T(B[m Browse[K[33d(B[0;7mFile Name to Write: /home/user1/.bashrc                                                     [33;40H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;60H(B[0;7m [91G(B[m[33;37H(B[0;7m[ Wrote 118 lines ](B[m[34;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[35;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[?12l[?25h[32;10H[?25l[33d[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# source /home/user1/.bashrc
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# ыг[K[Ksu - user1
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ umask
-[?2004l0007
-[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ touch test
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ ls -l tex[Kst
-[?2004l-rw-rw---- 1 user1 user1 0 Apr 11 09:13 test
-[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ ls
-[?2004ltest
-[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ rm test
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ exit
-[?2004llogout
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su - user [K1
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ touch /opt/share/user1.txt
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ su - user2[K[K[K[K[K[K[K[K[K[Kexit
-[?2004llogout
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su - user2
-[?2004l[?2004h]0;user2@eltex-practice2-pg2-v5: ~user2@eltex-practice2-pg2-v5:~$ touch /opt/share/user2.txt
-[?2004l[?2004h]0;user2@eltex-practice2-pg2-v5: ~user2@eltex-practice2-pg2-v5:~$ exit
-[?2004llogout
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su - user4[K3
-[?2004lThis account is currently not available.
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# ;s[K[Kls /opt/share
-[?2004luser1.txt  user2.txt
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su - user1
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ ls /opt/share
-[?2004luser1.txt  user2.txt
-[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ rm .[K/opt/share/user2.txt
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2-pg2-v5:~$ exit
-[?2004llogout
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su - user1ls /opt/share[3Psu - user3ls /opt/share[3Psu - user1[Ksu - user1ls /opt/share
-[?2004luser1.txt
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# 
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# su - user 2[K[K2
-[?2004l[?2004h]0;user2@eltex-practice2-pg2-v5: ~user2@eltex-practice2-pg2-v5:~$ exittouch /opt/share/user2.txtexit[K[Kexittouch /opt/share/user2.txtexit[K[Kexittouch /opt/share/user2.txtexit[K[Kls /opt/share
-[?2004luser1.txt
-[?2004h]0;user2@eltex-practice2-pg2-v5: ~user2@eltex-practice2-pg2-v5:~$ rm /opt/shareuser1/user1[C[C[C[C[C.txt
-[?2004l[?2004h]0;user2@eltex-practice2-pg2-v5: ~user2@eltex-practice2-pg2-v5:~$ exit
-[?2004llogout
-[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# ls /opt [K/sg[Khare
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# sudo chmod +t /opt/share
-[?2004l[?2004h]0;root@eltex-practice2-pg2-v5: ~root@eltex-practice2-pg2-v5:~# sudo chmod +t /opt/share[11Pls[C[C[C[C[C[C[C[C[C[C[C[3Psu - user2ls /opt/share[3Psu - user1
-[?2004l[?2004h]0;user1@eltex-practice2-pg2-v5: ~user1@eltex-practice2
